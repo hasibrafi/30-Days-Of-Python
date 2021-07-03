@@ -119,7 +119,7 @@ print(x(arg1, arg2, arg3))
 def add_two_nums(a, b):
     return a + b
 
-print(2, 3)     # 5
+print(add_two_nums(2, 3))     # 5
 # Lets change the above function to a lambda function
 add_two_nums = lambda a, b: a + b
 print(add_two_nums(2,3))    # 5
